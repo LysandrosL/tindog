@@ -1,0 +1,275 @@
+
+/************************ELEMENT SELECTORS*************************/
+
+body {
+    font-family: 'Montserrat';
+}
+
+
+/* Font-family for all of our heading elements */
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat';
+    font-weight: 900;
+}
+
+
+
+/************************CLASS SELECTORS************************/
+
+
+.big-heading {
+    font-family: 'Montserrat';
+    font-size: 3.5rem;
+    font-weight: 900;
+    line-height: 1.5;
+    text-shadow: -0.5px -0.5px 1px rgba(0, 0, 0, 0.3);
+    margin-bottom: 30px;
+    color: white;
+}
+
+
+.container-fluid {
+    padding:  3% 15% 0%;
+    position: relative;
+    z-index: 1;
+}
+
+
+/* Style the 'CTA' div */
+.cta-div {
+    padding: 3% 15% 8%;
+}
+
+.cta-h3 {
+    font-family: 'Montserrat';
+    font-size: 3.5rem;
+    line-height: 1.5;
+    font-weight: 900;
+    text-shadow: -0.5px -0.5px 1px rgba(0, 0, 0, 0.3);
+}
+
+
+/* Add padding to the Carousel items */
+.carousel-item {
+    padding: 5% 7%;
+}
+
+
+/* Style our 'Download' buttons */
+.download-button {
+    border-radius: 5px;
+    padding: 10px 20px;
+    text-shadow: -0.5px -0.5px 1px rgba(0, 0, 0, 0.3);
+    font-family: 'Montserrat';
+    font-size: 1.25rem;
+    font-weight: 400;
+}
+
+
+
+
+ /* Add space between our feature sections */
+.features-column {
+    padding: 75px;
+}
+
+.features-div {
+    position: relative;
+}
+
+
+/* CSS for our FontAwesome icons */
+.features-icon {
+    color:#ef8172;
+    width: auto;
+    margin-bottom: 1rem;
+}
+
+.features-icon:hover {
+    color:#ff4c68;
+}
+
+
+/*Style our H3 text of the "Features" section */
+.feature-title {
+    font-size: 1.5rem;
+}
+
+
+ /* Style our <p> text in the "Features" section */
+.features-p {
+    color: #8f8f8f;
+    font-size: 1rem;
+ }
+
+.features-div {
+    background-color: white;
+}
+
+
+/* Style the footer 'Download' buttons  */
+.footer-buttons {
+    margin-top: 5%;
+}
+
+
+/* Style the footer copyright section */
+.footer-copyright {
+    color: #F0C8D6;
+    margin-top: 1%;
+}
+
+
+
+/* Add space between our navbar and rest of the content */
+.navbar {
+    margin-bottom: 4.5rem;
+}
+
+/* Style the 'navigation-bar' <div> class */
+.navigation-bar {
+    padding-bottom: 14%;
+}
+
+
+/* Style the menu links */
+.navbar-nav {
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 1.30rem;
+    text-shadow: -0.5px -0.5px 0.5px rgba(0, 0, 0, 0.2);
+    color: white;
+} 
+
+
+/* Style our logo and add the "engraved" text-shadow effect */
+.navbar-brand {
+    font-family: 'Ubuntu';
+    font-weight: 700;
+    text-shadow: -0.5px -0.5px 1px rgba(0, 0, 0, 0.3);
+    color: white;
+    font-size: 2.75rem;
+}
+
+
+.pricing-column {
+    padding: 3% 2%;
+}
+
+/* Style the 'Pricing' section */
+.section-heading {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+
+/* Style the pricing text in the pricing cards  */
+.price-text {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+
+
+/* Style the 'Press' logos */
+.press-logo {
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+
+
+/* Style the H2 text in the 'Testimonials' section */
+.testimonials-text {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+
+/* Style the picture inside the 'Testimonials' section */
+.testimonials-profilepic {
+    border-radius: 100%;
+    width: 10%;
+    margin: 2%;
+}
+
+.title-image-div {
+    position: relative;
+}
+
+
+/************************ID SELECTORS************************/
+
+
+/* Style the 'Footer' section */
+#footer {
+    background-color: white;
+    padding: 5% 0;
+    text-align: center;
+}
+
+
+
+/* Add rotation to our iphone image */
+#iphone6 {
+    transform: rotate(25deg);
+    width: 23%;
+    position: absolute;
+    
+}
+
+
+/* Style the 'Press' section */
+#press {
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+#pricing {
+   padding: 100px; 
+   text-align: center;
+}
+
+
+/* Style the 'Testimonials' section */
+#testimonials {
+    text-align: center;
+    background-color: #ef8172;
+    color: #fff;
+    font-family: 'Montserrat';
+}
+
+
+/* Add background color to the 'Title' section which ecompasses all header elements */
+#title {
+    background-color: #ff4c68;
+    color: #fff;
+}
+
+
+
+/************************MEDIA QUERIES************************/
+
+
+/* Adding a media query to style the iphone image to appear vertically when in tablet+mobile view */
+@media screen and (max-width: 1028px) {
+
+    #title {
+        text-align: center;
+    }
+    
+    #iphone6 {
+        position: static;
+        padding-top: 7%; 
+        width: 30%;
+        transform: rotate(0);
+    }
+}
+
+
+/* Adding background color to the CTA section */
+#cta {
+    background-color: #ff4c68;
+    text-align: center;
+}
